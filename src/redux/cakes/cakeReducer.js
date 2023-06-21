@@ -4,6 +4,7 @@ const initialState = {
     numOfCakes: 10
 }
 
+/*Reducer Component*/
 const cakeReducer = (state = initialState, action) => {
     switch(action.type) {
         case BUY_CAKE: return {
